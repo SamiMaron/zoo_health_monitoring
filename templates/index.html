@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Health Monitoring</title>
+</head>
+<body>
+    <h1>Upload an Animal Image for Monitoring</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="animal_id">Animal ID:</label>
+        <input type="text" name="animal_id" required>
+        <br><br>
+        <label for="file">Choose image:</label>
+        <input type="file" name="file" required>
+        <br><br>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
