@@ -1,5 +1,10 @@
 # Zoo Health Monitoring System
 
+## Project Description
+The **Zoo Health Monitoring System** is a web application designed to assist zookeepers in monitoring the health and behavior of animals within a zoo. This system leverages image processing techniques to allow staff to upload periodic images of the animals, enabling them to track changes in appearance and identify potential health issues. By comparing new images with previous records, the application can detect significant changes that may indicate health concerns, such as skin problems or weight fluctuations.
+
+The application is built using Flask, a Python web framework, and features a PostgreSQL database for storing animal and image data. Additionally, the system sends alert notifications via email when significant changes are detected, ensuring that zookeepers can respond promptly to any potential health issues.
+
 ## Table of Contents
 - [Features](#features)
 - [Tools](#tools)
@@ -22,6 +27,5 @@
 - **Virtual Environment:** venv for managing dependencies
 
 ## Photos
-![Application Photo 1](Screenshot 2024-10-08 113021.png)
-![Application Photo 2](Screenshot 2024-10-08 113100.png)
-
+![Application Photo 1](Screenshot%202024-10-08%20113021.png)
+![Application Photo 2](Screenshot%202024-10-08%20113100.png)
