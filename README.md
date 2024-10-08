@@ -6,7 +6,8 @@
 - [Features](#features)
 - [Tools](#tools)
 ## Photo
-![Application Photo](Screenshot%202024-09-19%20105700.png)
+![Application Photo](Screenshot 2024-10-08 113021.png)
+![Application Photo](Screenshot 2024-10-08 113021.png)
 
 ## Features
 
